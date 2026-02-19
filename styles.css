@@ -31,12 +31,10 @@
 }
 
 #flex-section2 .item2 {
-
 	order: 3;
 }
 
 #flex-section2 .item3 {
-
 	order: 2;
 }
 
@@ -47,10 +45,18 @@
 
 #flex-section3 .box {
 
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 #flex-section3 .tags ul {
 
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+	margin: 0;
 }
 
 /* end Flexbox Part 3 */
